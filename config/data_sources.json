@@ -1,0 +1,10 @@
+[
+    {
+      "name": "MotoGP",
+      "image_type": ["jpg", "png"],
+      "source_dir": [
+        "sample_frames/"
+      ],
+      "target_dir": "destination/"
+    }
+]

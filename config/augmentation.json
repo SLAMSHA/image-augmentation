@@ -1,0 +1,27 @@
+ [
+   {
+     "name": "CROP",
+     "module_name": "crop",
+     "pre_processing_function": "image_cropping",
+     "post_processing_function": "",
+     "kwargs":
+        {
+          "crop_dimensions": [
+              [240,240]
+            ],
+         "crop_type": "left_down_center"
+       }
+   },
+   {
+     "name": "RANDOM_CROP",
+     "module_name": "random_crop",
+     "pre_processing_function": "image_random_cropping",
+     "post_processing_function": "",
+     "kwargs":
+        {
+          "crop_dimensions": [80,80] ,
+          "crop_type": "left_down_center",
+          "target_count": 1
+       }
+   }
+ ]
